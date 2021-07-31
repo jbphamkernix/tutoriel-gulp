@@ -42,7 +42,6 @@ npm install gulp -g
   |-- package-lock.json
   |-- package.json  
   |-- README.md
--
 ```
 
 ### Initialisation du projet
@@ -148,19 +147,21 @@ exports.watch = function () {
   watch('./src/js/**/*.js', series('jsFront'));
 };
 ```
-Cette commande permet de scruter les changements, puis d’exécuter la méthode associée.
 
+Cette commande permet de scruter les changements, puis d’exécuter la méthode associée.
+```
+gulp watch 
+```
 
 #### Gulp Default
 Rajouter à la fin du gulpfile.js.
 ```
 exports.default = series(parallel(sassFront, jsFront));
-
 ```
+
 Cette commande sert à lancer les tâches gulp par défaut.
 ```
 gulp
-
 ```
 
 ## Gulp, un "automatiseur de tâches" puissant et simple
