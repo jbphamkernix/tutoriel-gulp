@@ -1,0 +1,51 @@
+## Backups ---
+*~
+\#*\#
+*.swp
+*.dump
+*.log
+*.local
+.DS_Store
+.trash/
+.history/
+
+## Archive ---
+*.tgz
+*.tar
+*.zip
+
+## Data --
+data/*
+!data/dump
+!data/import/*
+
+## Docker --
+docker-compose.override.yml
+
+## Dump --
+## *.sql
+
+## PhpStorm ---
+*.iml
+.idea/
+*.ipr
+*.iws
+.idea_modules/
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+## NetBeans ---
+./nbproject/private/
+./build/
+./nbbuild/
+./nbdist/
+./nbactions.xml
+./.nb-gradle/
+dist/
+
+## Bower Gulp ---
+bower_components
+node_modules
+npm-debug.log
