@@ -85,7 +85,7 @@ npm install autoprefixer gulp-clean-css gulp-notify postcss gulp-postcss gulp-re
 - **gulp-rename** : Plugin qui fournit des méthodes simples de renommage de fichiers
 - **gulp-notify** : Plugin de notification
 
-Appeller les constantes (variables) & les scripts pour le SASS :
+Appeler les constantes (variables) & les scripts pour le SASS :
 ```
 const { src, dest, watch, parallel, series } = require("gulp");
 const sass = require('gulp-sass')(require('sass'));
@@ -121,8 +121,7 @@ Installation d'un base pour utiliser créer une tâches JS pour créer le fichie
 npm install gulp-uglify --save-dev
 ```
 
-const uglify = require('gulp-uglify');
-Appeller les constantes (variables) & les scripts pour le SASS :
+Appeler les constantes (variables) & les scripts pour le SASS :
 ```
 const uglify = require('gulp-uglify');
 
@@ -150,7 +149,7 @@ exports.watch = function () {
 
 Cette commande permet de scruter les changements, puis d’exécuter la méthode associée.
 ```
-gulp watch 
+gulp watch
 ```
 
 #### Gulp Default
